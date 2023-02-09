@@ -3,7 +3,9 @@
 
 
 <!-- Mirrored from validtemplates.github.io/educom/courses-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jan 2023 03:34:45 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
@@ -15,7 +17,7 @@
     <title>SMEASKILLL</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/favicon.png" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="<?php echo base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -52,12 +54,12 @@
 
     <!-- Start Header Top 
     ============================================= -->
-    
+
     <!-- End Header Top -->
 
     <!-- Header 
     ============================================= -->
-  <?php echo $header ?>
+    <?php echo $header ?>
     <!-- End Header -->
 
     <!-- Start Breadcrumb 
@@ -68,9 +70,10 @@
                 <div class="col-lg-12 col-md-12">
                     <h1>KURSUS</h1>
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Beranda</a></li>
-                        <li><a href="#">Tentang</a></li>
+                        <li><a href="<?= site_url('index.php/home') ?>"><i class="fas fa-home"></i> Beranda</a></li>
+                        <li><a href="<?= site_url('index.php/tentang') ?>">Tentang</a></li>
                         <li class="active">Kursus</li>
+                        <li><a href="<?= site_url('index.php/instruktur') ?>">Instruktur Kami</a></li>
                     </ul>
                 </div>
             </div>
@@ -120,10 +123,10 @@
                                     <a href="#">CSS</a>
                                 </h4>
                                 <p>
-                                CSS ( Cascading Style Sheets ) adalah bahasa yang kami gunakan untuk memberi gaya pada dokumen HTML. CSS menjelaskan bagaimana elemen HTML harus ditampilkan. 
+                                    CSS ( Cascading Style Sheets ) adalah bahasa yang kami gunakan untuk memberi gaya pada dokumen HTML. CSS menjelaskan bagaimana elemen HTML harus ditampilkan.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="#">Harga Saat Ini</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/css') ?>">Selengkapnya</a>
                                     <h4>$34.90</h4>
                                 </div>
                             </div>
@@ -166,10 +169,10 @@
                                     <a href="#">PHP</a>
                                 </h4>
                                 <p>
-                                PHP merupakan bahasa pemrograman server-side, maka script dari PHP nantinya akan diproses di server. Jenis server yang sering digunakan bersama dengan PHP antara lain Apache, Nginx, dan LiteSpeed. 
+                                    PHP yaitu bahasa pemrograman server-side, maka script nantinya akan diproses di server. Jenis server yang sering digunakan PHP antara lain Apache, Nginx, dan LiteSpeed.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="#">Harga Saat Ini</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/php') ?>">Selengkapnya</a>
                                     <h4>$39.00</h4>
                                 </div>
                             </div>
@@ -180,7 +183,7 @@
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb">
-                                <img src="<?php echo base_url() ?>assets/img/courses/3.jpg" alt="Thumb">
+                                <img src="<?php echo base_url() ?>assets/img/courses/7.jpg" style="width: 400px; height: 230px;" alt="Thumb">
                                 <div class="overlay">
                                     <a href="#">
                                         <img src="<?php echo base_url() ?>assets/img/team/3.jpg" alt="Thumb">
@@ -195,8 +198,8 @@
                                 <div class="meta">
                                     <ul>
                                         <li>
-                                            <a href="#">Science</a>
-                                            <a href="#">Tech</a>
+                                            <a href="#">Bahasa Pemrograman</a>
+                                            <a href="#">Java</a>
                                         </li>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -204,18 +207,18 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
-                                            <span>(4.6k)</span>
+                                            <span>(4k)</span>
                                         </li>
                                     </ul>
                                 </div>
                                 <h4>
-                                    <a href="#">Programming Masterclass</a>
+                                    <a href="#">Java</a>
                                 </h4>
                                 <p>
-                                    Wisdom praise things she before. Be mother itself vanity favour do me of. Begin sex was power joy after had walls miles. 
+                                Java merupakan bahasa yang digunakan secara luas untuk pengodean aplikasi web. Bahasa ini telah menjadi pilihan di antara developer selama lebih dari dua dekade.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="#">Enroll Now</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/java')?>">Selengkapnya</a>
                                     <h4>$54.00</h4>
                                 </div>
                             </div>
@@ -226,7 +229,7 @@
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb">
-                                <img src="<?php echo base_url() ?>assets/img/courses/4.jpg" alt="Thumb">
+                                <img src="<?php echo base_url() ?>assets/img/courses/c.jpg" style="width: 400px; height: 230px;" alt="Thumb">
                                 <div class="overlay">
                                     <a href="#">
                                         <img src="<?php echo base_url() ?>assets/img/team/4.jpg" alt="Thumb">
@@ -241,8 +244,8 @@
                                 <div class="meta">
                                     <ul>
                                         <li>
-                                            <a href="#">Education</a>
-                                            <a href="#">Tech</a>
+                                            <a href="#">Bahasa Pemrograman</a>
+                                            <a href="#">C#</a>
                                         </li>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -255,13 +258,13 @@
                                     </ul>
                                 </div>
                                 <h4>
-                                    <a href="#">Professional Web Development</a>
+                                    <a href="#">C#</a>
                                 </h4>
                                 <p>
-                                    Wisdom praise things she before. Be mother itself vanity favour do me of. Begin sex was power joy after had walls miles. 
+                                    C# (dibaca see sharp) adalah bahasa pemrograman yang dibuat oleh Microsoft dan ditargetkan berjalan di atas platform .NET (dotnet).
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="#">Enroll Now</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/c')?>">Selengkapnya</a>
                                     <h4>$23.00</h4>
                                 </div>
                             </div>
@@ -272,7 +275,7 @@
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb">
-                                <img src="<?php echo base_url() ?>assets/img/courses/5.jpg" alt="Thumb">
+                                <img src="<?php echo base_url() ?>assets/img/courses/html.jpg" style="width: 400px; height: 230px;" alt="Thumb">
                                 <div class="overlay">
                                     <a href="#">
                                         <img src="<?php echo base_url() ?>assets/img/team/5.jpg" alt="Thumb">
@@ -287,8 +290,8 @@
                                 <div class="meta">
                                     <ul>
                                         <li>
-                                            <a href="#">Illustration</a>
-                                            <a href="#">Design</a>
+                                            <a href="#">Bahasa Pemrograman</a>
+                                            <a href="#">HTML</a>
                                         </li>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -301,13 +304,13 @@
                                     </ul>
                                 </div>
                                 <h4>
-                                    <a href="#">Causal Creative Learning</a>
+                                    <a href="#">HTML</a>
                                 </h4>
                                 <p>
-                                    Wisdom praise things she before. Be mother itself vanity favour do me of. Begin sex was power joy after had walls miles. 
+                                Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="#">Enroll Now</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/html')?>">Selengkapnya</a>
                                     <h4>$39.00</h4>
                                 </div>
                             </div>
@@ -318,7 +321,7 @@
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb">
-                                <img src="<?php echo base_url() ?>assets/img/courses/6.jpg" alt="Thumb">
+                                <img src="<?php echo base_url() ?>assets/img/courses/python.png" style="width: 400px; height: 230px;" alt="Thumb">
                                 <div class="overlay">
                                     <a href="#">
                                         <img src="<?php echo base_url() ?>assets/img/team/6.jpg" alt="Thumb">
@@ -333,8 +336,8 @@
                                 <div class="meta">
                                     <ul>
                                         <li>
-                                            <a href="#">Science</a>
-                                            <a href="#">Tech</a>
+                                            <a href="#">Bahasa Pemrograman</a>
+                                            <a href="#">Python</a>
                                         </li>
                                         <li>
                                             <i class="fas fa-star"></i>
@@ -342,18 +345,18 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
-                                            <span>(4.6k)</span>
+                                            <span>(1k)</span>
                                         </li>
                                     </ul>
                                 </div>
                                 <h4>
-                                    <a href="#">Basic English Speaking</a>
+                                    <a href="#">Python</a>
                                 </h4>
-                                <p>
-                                    Wisdom praise things she before. Be mother itself vanity favour do me of. Begin sex was power joy after had walls miles. 
+                                <p>          
+                                    Python adalah bahasa yang melakukan eksekusi sejumlah instruksi multi guna secara langsung dengan metode orientasi objek.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="#">Enroll Now</a>
+                                    <a class="btn btn-theme effect btn-sm" href="#">Selengkapnya</a>
                                     <h4>$54.00</h4>
                                 </div>
                             </div>
@@ -361,6 +364,9 @@
                     </div>
                     <!-- Single Item -->
                 </div>
+                        <div style="display: block; margin-left: 500px;" class="footer-meta">
+                            <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/python')?>">Lihat Semua</a>
+                        </div>
             </div>
         </div>
     </div>
@@ -395,4 +401,5 @@
 </body>
 
 <!-- Mirrored from validtemplates.github.io/educom/courses-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jan 2023 03:34:45 GMT -->
+
 </html>

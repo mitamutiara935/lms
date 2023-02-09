@@ -14,7 +14,7 @@
                                     <p>Email <span><a href="mailto:smeaskilll@gmail.com">smeaskilll@gmail.com</a></span></p>
                                 </li>
                                 <li>
-                                    <p>Kantor <span>123 6th  Jakarta, IND 32904</span></p>
+                                    <p>Kantor <span>123 6th  Garut, IND 44151</span></p>
                                 </li>
                             </ul>
                         </div>
@@ -34,6 +34,9 @@
                                 </li>
                                 <li>
                                     <a href="#"><i class="ti-angle-right"></i> Kursus</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="ti-angle-right"></i> Instruktur Kami</a>
                                 </li>
                             </ul>
                         </div>

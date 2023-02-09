@@ -61,6 +61,10 @@
                     <a href="<?php echo site_url('index.php/kursus'); ?>"  >Kursus</a>
                    
                 </li>
+                <li>
+                    <a href="<?php echo site_url('index.php/instruktur'); ?>"  >Instruktur Kami</a>
+                   
+                </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div>

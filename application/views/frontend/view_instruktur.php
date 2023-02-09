@@ -64,16 +64,17 @@
 
     <!-- Start Breadcrumb 
     ============================================= -->
-    <div class="breadcrumb-area shadow dark bg-fixed text-center text-light" style="background-image: url(/lms/assets/img/banner/26.jpg);">
+    <div class="breadcrumb-area shadow dark bg-fixed text-center text-light" style="background-image: url(/lms/assets/img/banner/bginstruktur.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
-                    <h1>Tentang Kami</h1>
+                    <h1>Instruktur Kami</h1>
                     <ul class="breadcrumb">
                         <li><a href="<?= site_url('index.php/home') ?>"><i class="fas fa-home"></i> Beranda</a></li>
-                        <li class="active">Tentang</li>
+                        <li><a href="<?= site_url('index.php/tentang') ?>">Tentang</a></li>
                         <li><a href="<?= site_url('index.php/kursus') ?>">Kursus</a></li>
-                        <li><a href="<?= site_url('index.php/instruktur') ?>">Instruktur Kami</a></li>
+                        <li class="active">Instruktur Kami</li>
+
                     </ul>
                 </div>
             </div>
@@ -90,7 +91,7 @@
                     <div class="col-md-6 about-info">
                         <h2>Selamat Datang! <span>Kami Akademi Pendidikan Global</span></h2>
                         <blockquote>
-                            Tingkatkan keterampilan digital, tambah portofolio, dan siapkan karir kamu untuk jadi talenta digital handal bersama smeaskilll.
+                            Berikut merupakan instruktur-instruktur kami yang ahli dalam bidangnya.
                         </blockquote>
                         <div class="semester-apply">
                             <div class="row">
@@ -175,40 +176,7 @@
 
     <!-- Start Campus Story 
     ============================================= -->
-    <div class="campus-story-area video-bg-live text-light text-center bg-fixed" style="background-image: url(assets/img/banner/15.jpg);">
-        <div class="player" data-property="{videoURL:'DwurPyuaxi4',containment:'.video-bg-live', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:39, opacity:1, quality:'default'}"></div>
-        <div class="story-items default-padding shadow dark-hard">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="heading">
-                            <h2>PROFIL SEKOLAH</h2>
-                        </div>
-                        <div class="content campus-carousel owl-carousel owl-theme">
-                            <div class="item">
-                                <h4>SMKN 1 Garut - Sekolah</h4>
-                                <p>
-                                    SMKN 1 Garut ini merupakan sekolah yang bekerja sama dengan SMEASKILLL.
-                                </p>
-                                <a href="https://www.youtube.com/waatch?v=DwurPyuaxi4" class="popup-youtube relative light video-play-button item-center">
-                                    <i class="fa fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <h4>SMKN 1 Garut - Sekolah</h4>
-                                <p>
-                                    SMKN 1 Garut ini merupakan sekolah yang bekerja sama dengan SMEASKILLL.
-                                </p>
-                                <a href="https://www.youtube.com/watch?v=DwurPyuaxi4" class="popup-youtube relative light video-play-button item-center">
-                                    <i class="fa fa-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- End Campus Story -->
 
     <!-- Start Advisor 
@@ -218,7 +186,7 @@
             <div class="row">
                 <div class="site-heading text-center">
                     <div class="col-md-8 col-md-offset-2">
-                        <h2>Tentang Kami</h2>
+                        <h2>Instruktur Kami</h2>
                     </div>
                 </div>
             </div>
@@ -227,32 +195,7 @@
                     <!-- Single item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="<?php echo base_url() ?>assets/img/advisor/pak andri.jpeg" alt="Thumb">
-                            <ul>
-                                <li class="facebook">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li class="twitter">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="dribbble">
-                                    <a href="#"><i class="fab fa-dribbble"></i></a>
-                                </li>
-                                <li class="youtube">
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="info">
-                            <span>CEO</span>
-                            <h4>Andriansyah Maulana, M.Kom.</h4>
-                        </div>
-                    </div>
-                    <!-- End Single item -->
-                    <!-- Single item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="<?php echo base_url() ?>assets/img/advisor/riki.jpeg" alt="Thumb">
+                            <img src="<?php echo base_url() ?>assets/img/advisor/1.jpg" alt="Thumb">
                             <ul>
                                 <li class="facebook">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -277,7 +220,7 @@
                     <!-- Single item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="<?php echo base_url() ?>assets/img/advisor/nazar.jpeg" alt="Thumb">
+                            <img src="<?php echo base_url() ?>assets/img/advisor/2.jpg" alt="Thumb">
                             <ul>
                                 <li class="facebook">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -302,7 +245,7 @@
                     <!-- Single item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="<?php echo base_url() ?>assets/img/advisor/yusuf.jpeg" alt="Thumb">
+                            <img src="<?php echo base_url() ?>assets/img/advisor/3.jpg" alt="Thumb">
                             <ul>
                                 <li class="facebook">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -327,7 +270,7 @@
                     <!-- Single item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="<?php echo base_url() ?>assets/img/advisor/dida.jpeg" alt="Thumb">
+                            <img src="<?php echo base_url() ?>assets/img/advisor/4.jpg" alt="Thumb">
                             <ul>
                                 <li class="facebook">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -352,7 +295,7 @@
                     <!-- Single item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="<?php echo base_url() ?>assets/img/advisor/mita.jpeg" alt="Thumb">
+                            <img src="<?php echo base_url() ?>assets/img/advisor/3.jpg" alt="Thumb">
                             <ul>
                                 <li class="facebook">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -377,7 +320,7 @@
                     <!-- Single item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="<?php echo base_url() ?>assets/img/advisor/silve.jpeg" alt="Thumb">
+                            <img src="<?php echo base_url() ?>assets/img/advisor/3.jpg" alt="Thumb">
                             <ul>
                                 <li class="facebook">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
