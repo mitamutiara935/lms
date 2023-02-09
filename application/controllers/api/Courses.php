@@ -1,10 +1,8 @@
 <?php
 
-namespace api;
 
-use CI_Controller;
 
-class Kursus extends CI_Controller
+class Courses extends CI_Controller
 {
 	public function __construct()
 	{
