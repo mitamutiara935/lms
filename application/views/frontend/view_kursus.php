@@ -215,10 +215,10 @@
                                     <a href="#">Java</a>
                                 </h4>
                                 <p>
-                                Java merupakan bahasa yang digunakan secara luas untuk pengodean aplikasi web. Bahasa ini telah menjadi pilihan di antara developer selama lebih dari dua dekade.
+                                    Java merupakan bahasa yang digunakan secara luas untuk pengodean aplikasi web. Bahasa ini telah menjadi pilihan di antara developer selama lebih dari dua dekade.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/java')?>">Selengkapnya</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/java') ?>">Selengkapnya</a>
                                     <h4>$54.00</h4>
                                 </div>
                             </div>
@@ -264,7 +264,7 @@
                                     C# (dibaca see sharp) adalah bahasa pemrograman yang dibuat oleh Microsoft dan ditargetkan berjalan di atas platform .NET (dotnet).
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/c')?>">Selengkapnya</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/c') ?>">Selengkapnya</a>
                                     <h4>$23.00</h4>
                                 </div>
                             </div>
@@ -307,10 +307,10 @@
                                     <a href="#">HTML</a>
                                 </h4>
                                 <p>
-                                Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet.
+                                    Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/html')?>">Selengkapnya</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/html') ?>">Selengkapnya</a>
                                     <h4>$39.00</h4>
                                 </div>
                             </div>
@@ -352,11 +352,11 @@
                                 <h4>
                                     <a href="#">Python</a>
                                 </h4>
-                                <p>          
+                                <p>
                                     Python adalah bahasa yang melakukan eksekusi sejumlah instruksi multi guna secara langsung dengan metode orientasi objek.
                                 </p>
                                 <div class="footer-meta">
-                                    <a class="btn btn-theme effect btn-sm" href="#">Selengkapnya</a>
+                                    <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/python') ?>">Selengkapnya</a>
                                     <h4>$54.00</h4>
                                 </div>
                             </div>
@@ -364,9 +364,9 @@
                     </div>
                     <!-- Single Item -->
                 </div>
-                        <div style="display: block; margin-left: 500px;" class="footer-meta">
-                            <a class="btn btn-theme effect btn-sm" href="<?= site_url('index.php/python')?>">Lihat Semua</a>
-                        </div>
+                <div style="display: block; margin-left: 500px;" class="footer-meta">
+                    <a class="btn btn-theme effect btn-sm" href="#">Lihat Semua</a>
+                </div>
             </div>
         </div>
     </div>

@@ -60,7 +60,7 @@
     <!-- Start Breadcrumb 
     ============================================= -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#ff7f00" fill-opacity="1" d="M0,320L48,282.7C96,245,192,171,288,144C384,117,480,139,576,165.3C672,192,768,224,864,208C960,192,1056,128,1152,117.3C1248,107,1344,149,1392,170.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        <path fill="#080842" fill-opacity="1" d="M0,320L48,282.7C96,245,192,171,288,144C384,117,480,139,576,165.3C672,192,768,224,864,208C960,192,1056,128,1152,117.3C1248,107,1344,149,1392,170.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
     </svg>
     <!-- End Breadcrumb -->
 
@@ -90,23 +90,25 @@
                                 </div>
                                 <div class="col-md-6 col-sm-6 item">
                                     <h4>Materi</h4>
-                                    <p>1. Struktur Dokumen HTML</p>
-                                    <p>2. HTML Tag, Element, Attribute & Comment</p>
-                                    <p>3. HTML Tag Untuk Menampilkan Teks</p>
-                                    <p>4. HTML Tag Untuk Multimedia</p>
-                                    <p>5. HTML Tag Untuk Tabel</p>
-                                    <p>6. HTML Tag Untuk Formulir</p>
-                                    <p>7. HTML Tag Untuk Membagi Layout Website</p>
+                                    <p>1. Python Introduction</p>
+                                    <p>2. Tipe Data Dan Operator</p>
+                                    <p>3. Variabel dan Input</p>
+                                    <p>4. Logical and Comparison Operators</p>
+                                    <p>5. Conditional Statement</p>
+                                    <p>6. Loops</p>
+                                    <p>7. Sequence Data Types</p>
                                 </div>
                                 <div class="col-md-6 col-sm-6 item" style="margin-left: 2px;">
                                     <h4>Persiapan Kelas</h4>
-                                    <p> - Gunakan komputer atau laptop dengan koneksi internet yang stabil.</p>
-                                    <p> - Install browser (disarankan menggunakan Chrome).</p>
-                                    <p> - Jika kamu belum pernah mempelajari programming sebelumnya, tidak masalah. </p>
+                                    <p> Kamu dapat mengikuti kelas ini tanpa latar belakang IT sebelumnya. Kelas ini didesain untuk Pemula dan seorang Programmer yang ingin pertama kali mempelajari bahasa pemrograman Python.</p>
+                                    <p> Kamu juga direkomendasikan memiliki koneksi Internet yang baik agar dapat mengakses video pembelajaran dengan minimum 720p hingga Full HD 1080p.</p>
+                                    <p> Pada kelas ini kita akan menggunakan beberapa tools, yaitu: </p>
+                                    <p> - Visual Studio Code</p>
+                                    <p> - Python 3</p>
                                 </div>
                             </div>
                             <div style="display: block; margin-left: 500px;" class="footer-meta">
-                                <a class="btn btn-warning effect btn-sm" href="#">Ikuti Sekarang</a>
+                                <a class="btn btn-dark effect btn-sm" href="#">Ikuti Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -115,7 +117,7 @@
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ff7f00" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,202.7C384,213,480,203,576,208C672,213,768,235,864,229.3C960,224,1056,192,1152,170.7C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            <path fill="#080842" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,202.7C384,213,480,203,576,208C672,213,768,235,864,229.3C960,224,1056,192,1152,170.7C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
         </svg>
     </div>
     <!-- End About -->
